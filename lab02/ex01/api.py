@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-from cipher.caesar import CaesarCipher
-from cipher.playfair import PlayFairCipher
+from ex01.cipher.caesar import CaesarCipher
+from ex01.cipher.playfair import PlayFairCipher
 
 app = Flask(__name__)
 
