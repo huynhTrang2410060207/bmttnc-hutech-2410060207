@@ -1,4 +1,4 @@
-from ex01.cipher.caesar import ALPHABET
+from .alphabet import ALPHABET
 
 class CaesarCipher:
     def __init__(self):
